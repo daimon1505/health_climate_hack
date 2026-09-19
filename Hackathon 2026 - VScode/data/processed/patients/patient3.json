@@ -1,0 +1,54 @@
+{
+  "id": "patient3",
+  "synthetic": true,
+  "sample_persona": true,
+  "review_status": "SAMPLE persona drafted by Claude Code — team to replace conditions/meds; clinical review pending",
+  "display_name": "Aisha Khan",
+  "age": 34,
+  "sex": "Female",
+  "conditions": ["Asthma"],
+  "medications": [
+    { "name": "Albuterol inhaler", "dose": "2 puffs as needed", "class_id": null, "prescriber": "Dr. A. Rivera (Primary care)", "start_date": "2012-05-01" },
+    { "name": "Fluticasone inhaler", "dose": "1 puff twice daily", "class_id": null, "prescriber": "Dr. A. Rivera (Primary care)", "start_date": "2023-09-14" }
+  ],
+  "heat_profile": { "has_ac": true, "lives_alone": false, "mobility": "Independent" },
+  "locations": [
+    { "id": "home", "label": "Home", "type": "home", "nta_id": "BX0402", "address": "1050 Woodycrest Ave (fictional)" },
+    { "id": "work", "label": "Work", "type": "work", "nta_id": "MN1001", "address": "Harlem office (fictional)" },
+    { "id": "family", "label": "Family", "type": "family", "nta_id": "MN0702", "address": "Parents' apartment (fictional)" }
+  ],
+  "current_location_id": "home",
+  "consent": { "share_red_alerts_with_care_team": false, "date": "2026-05-19" },
+  "chart": {
+    "demographics": {
+      "dob": "1992-01-09 (synthetic)",
+      "mrn": "SYN-000103",
+      "address": "1050 Woodycrest Ave, Apt 6F, Bronx, NY 10452 (fictional)",
+      "phone": "718-555-0103",
+      "language": "English, Urdu",
+      "emergency_contact": { "name": "Imran Khan", "relationship": "Spouse", "phone": "718-555-0113" }
+    },
+    "healthcare_proxy": { "name": "Imran Khan", "relationship": "Spouse", "phone": "718-555-0113" },
+    "pharmacy": { "name": "Highbridge Pharmacy (fictional)", "address": "1200 Ogden Ave, Bronx, NY (fictional)", "phone": "718-555-0123" },
+    "visit_notes": [
+      {
+        "date": "2026-05-19",
+        "type": "Primary care — asthma check",
+        "provider": "Dr. A. Rivera",
+        "subjective": "Uses albuterol about once a week, more often on hot, humid days with poor air quality. No night symptoms.",
+        "objective": "Lungs clear. SpO2 99%. Peak flow 410 L/min (personal best 440).",
+        "assessment": "Mild persistent asthma, well controlled.",
+        "plan": "Continue fluticasone. Updated asthma action plan. Offered heat alerts; she chose not to share red alerts automatically with the care team."
+      }
+    ],
+    "after_visit_summaries": [
+      { "date": "2026-05-19", "summary": "Your asthma is well controlled. Keep using your daily inhaler. On hot or smoky days, limit time outside and carry your rescue inhaler." }
+    ],
+    "appointments": [
+      { "date": "2026-11-18 16:00", "provider": "Dr. A. Rivera (Primary care)", "reason": "Asthma follow-up + flu shot" }
+    ],
+    "other_conditions": ["Allergic rhinitis"],
+    "labs": [],
+    "imaging": []
+  }
+}

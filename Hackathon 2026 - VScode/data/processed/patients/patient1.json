@@ -1,0 +1,106 @@
+{
+  "id": "patient1",
+  "synthetic": true,
+  "sample_persona": true,
+  "review_status": "SAMPLE persona drafted by Claude Code — team to replace conditions/meds; clinical review pending",
+  "display_name": "Maria Santos",
+  "age": 58,
+  "sex": "Female",
+  "conditions": ["Bipolar I disorder", "Hypothyroidism"],
+  "medications": [
+    { "name": "Lithium carbonate ER", "dose": "450 mg by mouth twice daily", "class_id": "lithium", "prescriber": "Dr. P. Nair (Psychiatry)", "start_date": "2019-03-12" },
+    { "name": "Levothyroxine", "dose": "75 mcg by mouth every morning", "class_id": null, "prescriber": "Dr. A. Rivera (Primary care)", "start_date": "2021-06-02" },
+    { "name": "Vitamin D3", "dose": "1,000 IU by mouth daily", "class_id": null, "prescriber": "Dr. A. Rivera (Primary care)", "start_date": "2022-01-15" }
+  ],
+  "heat_profile": { "has_ac": true, "lives_alone": true, "mobility": "Walks independently; takes the subway" },
+  "locations": [
+    { "id": "home", "label": "Home", "type": "home", "nta_id": "MN0702", "address": "210 W 89th St (fictional)" },
+    { "id": "pharmacy", "label": "Pharmacy", "type": "pharmacy", "nta_id": "MN0903", "address": "Sugar Hill Pharmacy (fictional)" },
+    { "id": "clinic", "label": "Clinic", "type": "clinic", "nta_id": "MN0603", "address": "Maple Street Clinic (fictional)" },
+    { "id": "work", "label": "Work", "type": "work", "nta_id": "MN0203", "address": "Bookshop, Bleecker St (fictional)" }
+  ],
+  "current_location_id": "home",
+  "consent": { "share_red_alerts_with_care_team": true, "date": "2026-05-04" },
+  "chart": {
+    "demographics": {
+      "dob": "1968-02-14 (synthetic)",
+      "mrn": "SYN-000101",
+      "address": "210 W 89th St, Apt 4C, New York, NY 10024 (fictional)",
+      "phone": "212-555-0101",
+      "language": "English, Spanish",
+      "emergency_contact": { "name": "Luis Santos", "relationship": "Brother", "phone": "212-555-0111" }
+    },
+    "healthcare_proxy": { "name": "Luis Santos", "relationship": "Brother", "phone": "212-555-0111" },
+    "pharmacy": { "name": "Sugar Hill Pharmacy (fictional)", "address": "1 Edgecombe Ave, New York, NY (fictional)", "phone": "212-555-0121" },
+    "visit_notes": [
+      {
+        "date": "2026-07-08",
+        "type": "Primary care — follow-up",
+        "provider": "Dr. A. Rivera",
+        "subjective": "Patient reports feeling more tired than usual over the past week during hot weather. Walks about 20 minutes to work each day. Reports mild thirst and a slight hand tremor, which she says is \"a bit worse than normal\". Denies confusion, vomiting, diarrhea, or fainting. Mood stable; sleeping 7 hours per night. Taking all medications as prescribed.",
+        "objective": "BP 118/74, HR 84, Temp 98.4°F, Weight 68.2 kg (down 0.8 kg from May). Alert and oriented. Mucous membranes slightly dry. Fine postural tremor of both hands. No ataxia. Heart regular, lungs clear.",
+        "assessment": "1) Bipolar I disorder, stable on lithium. 2) Mild tremor and fatigue during a hot period — check lithium level and kidney function. 3) Hypothyroidism, on replacement.",
+        "plan": "Lithium level, basic metabolic panel, and TSH today. Reviewed heat safety: drinking fluids, staying cool at midday, and which symptoms mean she should call. Message sent to psychiatry (Dr. Nair) with results when available. Follow up in 4 weeks or sooner if symptoms get worse."
+      },
+      {
+        "date": "2026-05-04",
+        "type": "Primary care — annual visit",
+        "provider": "Dr. A. Rivera",
+        "subjective": "Annual visit. No new complaints. Mood stable. Lives alone and has a window AC unit in the bedroom. Asked about summer safety because she heard lithium and heat can be a problem.",
+        "objective": "BP 122/78, HR 76, Temp 98.2°F, Weight 69.0 kg. Exam normal. Mild fine tremor, which is her baseline.",
+        "assessment": "Healthy adult with stable bipolar I disorder on lithium and hypothyroidism.",
+        "plan": "Routine labs. Signed up for the heat-alert program. Consent to share red alerts with the care team was discussed and signed. Gave a written heat plan."
+      },
+      {
+        "date": "2026-02-10",
+        "type": "Psychiatry — medication management",
+        "provider": "Dr. P. Nair",
+        "subjective": "Euthymic for more than 12 months. No side effects except a mild tremor. Working part-time.",
+        "objective": "Calm and well groomed. Thinking clear. No suicidal thoughts.",
+        "assessment": "Bipolar I disorder, in remission.",
+        "plan": "Continue lithium at the current dose. Check level every 3–6 months. Follow up in 3 months."
+      }
+    ],
+    "after_visit_summaries": [
+      { "date": "2026-07-08", "summary": "We checked your blood today, including your lithium level. On hot days, stay somewhere cool, drink water regularly, and call us if your shaking gets worse, you feel confused, or you have vomiting or diarrhea. We will call you with your results." },
+      { "date": "2026-05-04", "summary": "Your annual check-up looked good. You joined the heat-alert program. If a red heat alert happens where you are, your care team will be told automatically. Keep taking your medicines as prescribed." }
+    ],
+    "appointments": [
+      { "date": "2026-10-06 10:30", "provider": "Dr. A. Rivera (Primary care)", "reason": "Follow-up: tremor and lab review" },
+      { "date": "2026-11-12 14:00", "provider": "Dr. P. Nair (Psychiatry)", "reason": "Medication management" }
+    ],
+    "other_conditions": ["Seasonal allergies", "History of right wrist fracture (2015)"],
+    "labs": [
+      { "date": "2026-07-08", "panel": "Lithium level + BMP + TSH", "results": [
+        { "name": "Lithium", "value": 1.1, "unit": "mmol/L", "ref_range": "0.6–1.2", "flag": "" },
+        { "name": "Sodium", "value": 136, "unit": "mmol/L", "ref_range": "135–145", "flag": "" },
+        { "name": "Creatinine", "value": 1.08, "unit": "mg/dL", "ref_range": "0.50–1.10", "flag": "" },
+        { "name": "eGFR", "value": 59, "unit": "mL/min/1.73m²", "ref_range": "≥60", "flag": "L" },
+        { "name": "TSH", "value": 2.9, "unit": "mIU/L", "ref_range": "0.4–4.5", "flag": "" }
+      ]},
+      { "date": "2026-05-04", "panel": "Lithium level + BMP + TSH", "results": [
+        { "name": "Lithium", "value": 0.8, "unit": "mmol/L", "ref_range": "0.6–1.2", "flag": "" },
+        { "name": "Sodium", "value": 139, "unit": "mmol/L", "ref_range": "135–145", "flag": "" },
+        { "name": "Creatinine", "value": 0.94, "unit": "mg/dL", "ref_range": "0.50–1.10", "flag": "" },
+        { "name": "eGFR", "value": 70, "unit": "mL/min/1.73m²", "ref_range": "≥60", "flag": "" },
+        { "name": "TSH", "value": 2.4, "unit": "mIU/L", "ref_range": "0.4–4.5", "flag": "" }
+      ]},
+      { "date": "2026-02-10", "panel": "Lithium level + BMP", "results": [
+        { "name": "Lithium", "value": 0.7, "unit": "mmol/L", "ref_range": "0.6–1.2", "flag": "" },
+        { "name": "Sodium", "value": 140, "unit": "mmol/L", "ref_range": "135–145", "flag": "" },
+        { "name": "Creatinine", "value": 0.91, "unit": "mg/dL", "ref_range": "0.50–1.10", "flag": "" },
+        { "name": "eGFR", "value": 73, "unit": "mL/min/1.73m²", "ref_range": "≥60", "flag": "" }
+      ]},
+      { "date": "2025-10-20", "panel": "Lithium level + BMP", "results": [
+        { "name": "Lithium", "value": 0.7, "unit": "mmol/L", "ref_range": "0.6–1.2", "flag": "" },
+        { "name": "Sodium", "value": 141, "unit": "mmol/L", "ref_range": "135–145", "flag": "" },
+        { "name": "Creatinine", "value": 0.89, "unit": "mg/dL", "ref_range": "0.50–1.10", "flag": "" },
+        { "name": "eGFR", "value": 75, "unit": "mL/min/1.73m²", "ref_range": "≥60", "flag": "" }
+      ]}
+    ],
+    "imaging": [
+      { "date": "2025-11-03", "modality": "Ultrasound", "body_part": "Thyroid", "report": "SYNTHETIC REPORT. Thyroid gland is normal in size. No nodules. Impression: normal thyroid ultrasound.", "image_file": "data/placeholders/scan_ultrasound.svg" },
+      { "date": "2024-09-18", "modality": "X-ray", "body_part": "Chest (2 views)", "report": "SYNTHETIC REPORT. Lungs are clear. Heart size is normal. No acute findings.", "image_file": "data/placeholders/scan_xray.svg" }
+    ]
+  }
+}

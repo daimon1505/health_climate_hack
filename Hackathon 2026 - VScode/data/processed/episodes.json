@@ -1,0 +1,10 @@
+{
+  "placeholder": true,
+  "note": "PLACEHOLDER episodes. TODO_P1: prep_data.py picks real high-TMAX days from NOAA NCEI (Central Park, USW00094728 [VERIFY]).",
+  "episodes": [
+    { "id": "ordinary", "date": "TODO", "tmax": 84, "tmin": 70, "label": "Ordinary summer day (placeholder)" },
+    { "id": "ep_moderate", "date": "TODO", "tmax": 92, "tmin": 76, "label": "Heat episode A — moderate (placeholder)" },
+    { "id": "ep_severe", "date": "TODO", "tmax": 97, "tmin": 79, "label": "Heat episode B — severe (placeholder)" },
+    { "id": "ep_extreme", "date": "TODO", "tmax": 101, "tmin": 82, "label": "Heat episode C — extreme (placeholder)" }
+  ]
+}

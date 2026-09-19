@@ -1,0 +1,18 @@
+{
+  "reviewed_by": "UNREVIEWED",
+  "general": [
+    "Stay in a cool place during the hottest part of the day.",
+    "Drink water regularly, even if you are not thirsty — unless your care team told you to limit fluids.",
+    "Wear light, loose clothing.",
+    "Check on neighbors, friends and family, especially people who live alone."
+  ],
+  "urgent": [
+    "Go to a cool place now.",
+    "If you feel confused, very weak, or faint, call 911.",
+    "Call your care team if you feel unwell."
+  ],
+  "resources": [
+    { "label": "211 New York — find local help", "url": "https://www.211nys.org/" }
+  ],
+  "disclaimer": "This is a hackathon demo, not medical advice. Do not stop or change any medicine without talking to your care team."
+}

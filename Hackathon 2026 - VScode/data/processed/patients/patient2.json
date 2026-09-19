@@ -1,0 +1,74 @@
+{
+  "id": "patient2",
+  "synthetic": true,
+  "sample_persona": true,
+  "review_status": "SAMPLE persona drafted by Claude Code — team to replace conditions/meds; clinical review pending",
+  "display_name": "Robert Hayes",
+  "age": 67,
+  "sex": "Male",
+  "conditions": ["Schizophrenia", "Hypertension"],
+  "medications": [
+    { "name": "Clozapine", "dose": "300 mg by mouth at bedtime", "class_id": "clozapine", "prescriber": "Dr. P. Nair (Psychiatry)", "start_date": "2016-08-01" },
+    { "name": "Benztropine", "dose": "1 mg by mouth twice daily", "class_id": "anticholinergic", "prescriber": "Dr. P. Nair (Psychiatry)", "start_date": "2016-08-01" },
+    { "name": "Amlodipine", "dose": "5 mg by mouth daily", "class_id": null, "prescriber": "Dr. A. Rivera (Primary care)", "start_date": "2020-04-10" }
+  ],
+  "heat_profile": { "has_ac": false, "lives_alone": true, "mobility": "Walks slowly; uses a cane for long distances" },
+  "locations": [
+    { "id": "home", "label": "Home", "type": "home", "nta_id": "BX0402", "address": "1180 Ogden Ave (fictional)" },
+    { "id": "day_program", "label": "Day program", "type": "work", "nta_id": "BX0503", "address": "Fordham Community Day Program (fictional)" },
+    { "id": "pharmacy", "label": "Pharmacy", "type": "pharmacy", "nta_id": "BX0301", "address": "Morrisania Pharmacy (fictional)" }
+  ],
+  "current_location_id": "home",
+  "consent": { "share_red_alerts_with_care_team": true, "date": "2026-04-22" },
+  "chart": {
+    "demographics": {
+      "dob": "1959-06-30 (synthetic)",
+      "mrn": "SYN-000102",
+      "address": "1180 Ogden Ave, Apt 2B, Bronx, NY 10452 (fictional)",
+      "phone": "718-555-0102",
+      "language": "English",
+      "emergency_contact": { "name": "Denise Hayes", "relationship": "Sister", "phone": "718-555-0112" }
+    },
+    "healthcare_proxy": { "name": "Denise Hayes", "relationship": "Sister", "phone": "718-555-0112" },
+    "pharmacy": { "name": "Morrisania Pharmacy (fictional)", "address": "1400 Boston Rd, Bronx, NY (fictional)", "phone": "718-555-0122" },
+    "visit_notes": [
+      {
+        "date": "2026-06-16",
+        "type": "Primary care — follow-up",
+        "provider": "Dr. A. Rivera",
+        "subjective": "Here with his day-program case worker. No AC at home; uses a fan. Says his apartment \"gets very hot upstairs\". Denies chest pain or fainting. Some constipation.",
+        "objective": "BP 132/82, HR 92, Temp 98.6°F. Alert. Walks with a cane. Skin warm and dry.",
+        "assessment": "1) Schizophrenia, stable on clozapine. 2) Hypertension, controlled. 3) High heat risk: no AC, lives alone, heat-relevant medications.",
+        "plan": "Referred to the case worker for an AC unit program application. Enrolled in heat alerts, consent signed. Reviewed cooling center options. CBC with ANC per clozapine monitoring."
+      },
+      {
+        "date": "2026-03-02",
+        "type": "Psychiatry — medication management",
+        "provider": "Dr. P. Nair",
+        "subjective": "Attends the day program 4 days a week. No hallucinations reported recently.",
+        "objective": "Calm and cooperative. Speech normal.",
+        "assessment": "Schizophrenia, stable.",
+        "plan": "Continue clozapine and benztropine. Continue ANC monitoring schedule."
+      }
+    ],
+    "after_visit_summaries": [
+      { "date": "2026-06-16", "summary": "Your apartment gets hot and you do not have AC. Your case worker will help you apply for an AC unit. On hot days, go to your day program or a cooling center. If a red heat alert happens where you are, your care team will be told automatically." }
+    ],
+    "appointments": [
+      { "date": "2026-09-29 09:00", "provider": "Lab", "reason": "CBC with ANC (clozapine monitoring)" },
+      { "date": "2026-10-20 11:00", "provider": "Dr. A. Rivera (Primary care)", "reason": "Blood pressure follow-up" }
+    ],
+    "other_conditions": ["Constipation", "Former smoker (quit 2018)"],
+    "labs": [
+      { "date": "2026-06-16", "panel": "CBC with ANC + BMP", "results": [
+        { "name": "ANC", "value": 2.8, "unit": "×10³/µL", "ref_range": "≥1.5", "flag": "" },
+        { "name": "Sodium", "value": 138, "unit": "mmol/L", "ref_range": "135–145", "flag": "" },
+        { "name": "Creatinine", "value": 1.02, "unit": "mg/dL", "ref_range": "0.70–1.30", "flag": "" }
+      ]},
+      { "date": "2026-03-02", "panel": "CBC with ANC", "results": [
+        { "name": "ANC", "value": 3.1, "unit": "×10³/µL", "ref_range": "≥1.5", "flag": "" }
+      ]}
+    ],
+    "imaging": []
+  }
+}

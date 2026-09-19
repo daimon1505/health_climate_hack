@@ -1,0 +1,46 @@
+{
+  "source_url": "TODO_ CDC 'Heat and Medications — Guidance for Clinicians' page URL",
+  "note": "Class list comes from the team's data tracker. risk_level, mechanism and notes are PLACEHOLDERS until copied from the CDC page and clinically reviewed.",
+  "rules": [
+    {
+      "id": "lithium", "label": "Lithium", "examples": ["lithium carbonate"],
+      "risk_level": "high", "placeholder": true,
+      "mechanism": "TODO_ one sentence from CDC guidance",
+      "patient_advice": "Hot weather can change how this medicine works in your body. Talk to your care team about how to stay safe when it is hot.",
+      "clinician_note": "TODO_ counseling / monitoring points from CDC guidance",
+      "source_url": "TODO_", "reviewed_by": "UNREVIEWED"
+    },
+    {
+      "id": "clozapine", "label": "Clozapine", "examples": ["clozapine"],
+      "risk_level": "high", "placeholder": true,
+      "mechanism": "TODO_ one sentence from CDC guidance",
+      "patient_advice": "Hot weather can change how this medicine works in your body. Talk to your care team about how to stay safe when it is hot.",
+      "clinician_note": "TODO_ counseling / monitoring points from CDC guidance",
+      "source_url": "TODO_", "reviewed_by": "UNREVIEWED"
+    },
+    {
+      "id": "antipsychotic", "label": "Antipsychotic medications", "examples": ["TODO_ from CDC page"],
+      "risk_level": "moderate", "placeholder": true,
+      "mechanism": "TODO_ one sentence from CDC guidance",
+      "patient_advice": "Hot weather can change how this medicine works in your body. Talk to your care team about how to stay safe when it is hot.",
+      "clinician_note": "TODO_ counseling / monitoring points from CDC guidance",
+      "source_url": "TODO_", "reviewed_by": "UNREVIEWED"
+    },
+    {
+      "id": "anticholinergic", "label": "Anticholinergic medications", "examples": ["TODO_ from CDC page"],
+      "risk_level": "high", "placeholder": true,
+      "mechanism": "TODO_ one sentence from CDC guidance",
+      "patient_advice": "Hot weather can change how this medicine works in your body. Talk to your care team about how to stay safe when it is hot.",
+      "clinician_note": "TODO_ counseling / monitoring points from CDC guidance",
+      "source_url": "TODO_", "reviewed_by": "UNREVIEWED"
+    },
+    {
+      "id": "diuretic", "label": "Diuretics (\"water pills\")", "examples": ["TODO_ from CDC page"],
+      "risk_level": "moderate", "placeholder": true,
+      "mechanism": "TODO_ one sentence from CDC guidance",
+      "patient_advice": "Hot weather can change how this medicine works in your body. Talk to your care team about how to stay safe when it is hot.",
+      "clinician_note": "TODO_ counseling / monitoring points from CDC guidance",
+      "source_url": "TODO_", "reviewed_by": "UNREVIEWED"
+    }
+  ]
+}
